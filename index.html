@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bluetooth car</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body >
+    <div class="container vh-100 gap-5 flex-column d-flex justify-content-center align-items-center">
+      <div
+        class="movementBtns gap-2 d-flex flex-column justify-content-center align-items-center"
+      >
+        <button data-forward="forward" class="btn up  ps-3 pe-3 btn-outline-primary"><i class="fa fa-arrow-alt-circle-up fa-2x"></i></button>
+        <div class="d-flex gap-5">
+          <button data-left="left" class="btn left  ps-3 pe-3 btn-outline-primary">
+            <i class="fa fa-arrow-alt-circle-left fa-2x"></i>
+          </button>
+          <button data-right="right" class="btn right  ps-3 pe-3 btn-outline-primary">
+            <i class="fa fa-arrow-alt-circle-right fa-2x"></i>
+          </button>
+        </div>
+        <button data-backward="forward" class="btn backward  ps-3 pe-3 btn-outline-primary">
+          <i class="fa fa-arrow-alt-circle-down fa-2x"></i>
+        </button>
+      </div>
+
+
+      <div class="settignsBtns">
+        <button data-speedUp="1" class="btn p-0 ps-2 pe-2 btn-secondary">speed up</button>
+        <button data-stop="0" class="btn p-0 ps-2 pe-2 btn-secondary">stop</button>
+        <button data-speedDown="-1" class="btn p-0 ps-2 pe-2 btn-secondary">speed down</button>
+      </div>
+    </div>
+
+
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
